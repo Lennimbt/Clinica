@@ -10,7 +10,7 @@ class citas extends StatelessWidget {
           title: Text('Citas y agendamiento'),
         ),
         body: SingleChildScrollView(
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
           child:
           card(),
         ));
